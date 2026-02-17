@@ -1,0 +1,31 @@
+
+<p>The items of a list are mutable, meaning you can change individual items using indexing:</p>
+
+<h2>Changing a Single Item</h2>
+
+<p>Use assignment to modify a list item at a specific index:</p>
+
+<py-cell>my_list = [1, 2, 3, 4]
+print(my_list)
+
+my_list[1] = 20
+print(my_list)
+
+my_list[0] = 10
+print(my_list)</py-cell>
+
+<h2>Using Negative Indices</h2>
+
+<p>You can modify items using negative indices:</p>
+
+<py-cell>colors = ["red", "green", "blue"]
+colors[-1] = "yellow"
+
+print(colors)</py-cell>
+
+<h2>Out of Bounds Assignment</h2>
+
+<p>You cannot assign to an index that doesn't exist:</p>
+
+<py-cell>my_list = [1, 2, 3]
+my_list[5] = 99</py-cell>
