@@ -15,5 +15,7 @@
         "python-indexing",
         "programming-expressions"
     ],
-    "related": []
+    "related": [
+        "programming-mutability-immutability"
+    ]
 }
