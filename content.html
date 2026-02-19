@@ -1,31 +1,15 @@
 
-<p>The items of a list are mutable, meaning you can change individual items using indexing:</p>
+<p>For some collections in Python it is possible to change the value of an item at a specific index. Common examples include lists and Numpy arrays. Here, we will use lists as an example:</p>
 
 <h2>Changing a Single Item</h2>
 
-<p>Use assignment to modify a list item at a specific index:</p>
+<p>To assign a new value to an item at a specific index, we write the name of the collection, followed by square brackets containing the index, and then an equals sign with the new value on the right:</p>
 
 <py-cell>my_list = [1, 2, 3, 4]
 print(my_list)
 
-my_list[1] = 20
+my_list[1] = 10 * 2 # The value on the right can be an expression
 print(my_list)
 
-my_list[0] = 10
+my_list[-1] = 40 # We can also use negative indexing
 print(my_list)</py-cell>
-
-<h2>Using Negative Indices</h2>
-
-<p>You can modify items using negative indices:</p>
-
-<py-cell>colors = ["red", "green", "blue"]
-colors[-1] = "yellow"
-
-print(colors)</py-cell>
-
-<h2>Out of Bounds Assignment</h2>
-
-<p>You cannot assign to an index that doesn't exist:</p>
-
-<py-cell>my_list = [1, 2, 3]
-my_list[5] = 99</py-cell>

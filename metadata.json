@@ -1,17 +1,19 @@
 {
-    "title": "Python: Lists - Item Assignment",
-    "slug": "python-lists-item-assignment",
-    "description": "Changing the value of list items using item assignment.",
+    "title": "Python: Item Assignment",
+    "slug": "python-item-assignment",
+    "description": "Changing the value of items in a collection using item assignment. Uses lists as an example.",
     "authors": [
         "chris-cooling"
     ],
     "tags": [
         "python"
     ],
-    "duration": 3,
+    "duration": 2,
     "prerequisites": [
         "python-lists-introduction",
-        "python-variables"
+        "python-variables",
+        "python-indexing",
+        "programming-expressions"
     ],
     "related": []
 }
